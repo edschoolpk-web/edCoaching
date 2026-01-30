@@ -1,0 +1,225 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique(map: "User_email_key")
+  password  String
+  name      String?
+  role      String   @default("ADMIN")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("user")
+}
+
+model Teacher {
+  id          String   @id @default(cuid())
+  slug        String   @unique(map: "Teacher_slug_key")
+  name        String
+  role        String
+  image       String?
+  detailImage String?
+  email       String?
+  bio         String   @db.Text
+  dob         String?
+  education   String?
+  experience  String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  skills      Skill[]
+  socials     Social?
+
+  @@map("teacher")
+}
+
+model Skill {
+  id         String  @id @default(cuid())
+  name       String
+  percentage Int
+  color      String?
+  teacherId  String
+  teacher    Teacher @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@index([teacherId], map: "Skill_teacherId_fkey")
+  @@map("skill")
+}
+
+model Social {
+  id        String  @id @default(cuid())
+  facebook  String?
+  twitter   String?
+  linkedin  String?
+  instagram String?
+  teacherId String  @unique(map: "Social_teacherId_key")
+  teacher   Teacher @relation(fields: [teacherId], references: [id], onDelete: Cascade)
+
+  @@map("social")
+}
+
+model GalleryImage {
+  id        String   @id @default(cuid())
+  url       String
+  title     String?
+  category  String   @default("general")
+  width     Int?
+  height    Int?
+  createdAt DateTime @default(now())
+
+  @@map("galleryimage")
+}
+
+model Notice {
+  id        String    @id @default(cuid())
+  content   String    @db.Text
+  image     String?
+  isActive  Boolean   @default(true)
+  startDate DateTime?
+  endDate   DateTime?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@map("notice")
+}
+
+model Certificate {
+  id             String   @id @default(cuid())
+  studentName    String
+  type           String   @default("CHARACTER")
+  commendation1  String?  @db.Text
+  commendation2  String?  @db.Text
+  designation    String   // Keeping for compatibility with existing records
+  universityName String   // Keeping for compatibility with existing records
+  verifyCode     String   @unique
+  status         String   @default("VALID")
+  pdfPath        String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model Appointment {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String
+  purpose   String
+  date      DateTime @db.Date
+  timeSlot  String
+  message   String?  @db.Text
+  status    String   @default("PENDING") // PENDING, CONFIRMED, REJECTED, RESCHEDULED
+  adminNote String?  @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime? @updatedAt
+
+  @@unique([date, timeSlot])
+  @@map("appointment")
+}
+
+// General time range settings (any time within range allowed)
+model TimeSlotSettings {
+  id        String   @id @default(cuid())
+  startTime String   // e.g., "10:00"
+  endTime   String   // e.g., "14:00"
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("timeslot_settings")
+}
+
+// Principal meeting slots - specific dates/days with times
+model PrincipalSlot {
+  id        String    @id @default(cuid())
+  date      DateTime? @db.Date  // Specific date (optional)
+  dayOfWeek Int?      // 0=Sunday...6=Saturday (optional)
+  time      String    // e.g., "10:00 AM"
+  isActive  Boolean   @default(true)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@map("principal_slot")
+}
+
+// Day-of-week availability
+model DateAvailability {
+  id          String  @id @default(cuid())
+  dayOfWeek   Int     @unique // 0=Sunday...6=Saturday
+  isAvailable Boolean @default(true)
+
+  @@map("date_availability")
+}
+
+// Specific blocked dates (holidays, closures)
+model BlockedDate {
+  id        String   @id @default(cuid())
+  date      DateTime @db.Date @unique
+  reason    String?
+  createdAt DateTime @default(now())
+
+  @@map("blocked_date")
+}
+
+// Career/Job Applications
+model CareerApplication {
+  id              String   @id @default(cuid())
+  post            String
+  fullName        String
+  guardianName    String
+  cnic            String
+  phone           String
+  email           String?
+  gender          String
+  dob             String
+  maritalStatus   String
+  qualification   String
+  experienceYears String
+  subjectArea     String
+  lastInstitute   String
+  city            String
+  expectedSalary  String?
+  address         String   @db.Text
+  message         String?  @db.Text
+  cvFile          String?
+  meetingDate     DateTime? @db.Date
+  meetingTime     String?
+  status          String   @default("NEW") // NEW, VIEWED, CONTACTED
+  createdAt       DateTime @default(now())
+
+  @@map("career_application")
+}
+
+// Student Admission Applications
+model AdmissionApplication {
+  id               String   @id @default(cuid())
+  admissionClass   String
+  session          String
+  studentName      String
+  gender           String
+  dob              String
+  bform            String?
+  lastSchool       String?
+  address          String   @db.Text
+  fatherName       String
+  fatherCnic       String
+  fatherOccupation String?
+  fatherCell       String
+  email            String
+  motherName       String?
+  motherOccupation String?
+  motherCell       String?
+  emergencyName    String
+  emergencyPhone   String
+  studentImage     String?
+  meetingDate      DateTime? @db.Date
+  meetingTime      String?
+  status           String    @default("NEW") // NEW, VIEWED, ENROLLED
+  createdAt        DateTime  @default(now())
+
+  @@map("admission_application")
+}
+
