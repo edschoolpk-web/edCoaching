@@ -20412,6 +20412,14 @@ a.crt-btn i {
 
 .blog-section .blog-posts .blog-post .blog-info p {
   margin-bottom: 13px;
+  
+max-height: 90px;
+    min-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .blog-section .blog-posts .blog-post .blog-info .read-more {

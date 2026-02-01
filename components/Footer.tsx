@@ -43,7 +43,7 @@ export default function Footer() {
                         <i className="fa-solid fa-phone-volume"></i>
                         <div className="contact-tt">
                           <h4>Call / WhatsApp</h4>
-                          <span> <a href="tel:+923112197685">+92 311 2197685</a></span>
+                          <span> <a href="tel:+923112197685">+92 315 221 9374 </a></span>
                         </div>
                       </div>
                       {/* contact-info end */}

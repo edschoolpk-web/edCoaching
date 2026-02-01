@@ -69,23 +69,23 @@ export default async function About() {
                   </li>
                 </ul>
                 <p>
-                  Welcome to Engineers & Doctors School! Founded on October
-                  1st, 2020, our institution is proudly registered with the
-                  Board of Secondary Education Karachi. At E&D, we emphasize a
-                  holistic approach to education, focusing on STEM learning,
-                  robotics, and multi-language proficiency. We are dedicated to
-                  nurturing digital literacy and providing a wide range of
-                  extracurricular activities to ensure well-rounded
-                  development.
+                  Welcome to Engineers & Doctors Inn (E&D)! Established in 2012, our institute has been
+                  dedicated to empowering students to achieve their academic and career goals. At E&D, we
+                  focus on top-class coaching for IX, X, XI, XII, MDCAT, and ECAT, combining a strong
+                  conceptual foundation with exam strategies, practical guidance, and modern learning tools.
                 </p>
                 <p className="mt-4">
-                  I am Muhammad Sadquain Salahuddin, the founder and principal
-                  of this institution. I hold a Bachelor of Engineering from NED
-                  University of Engineering and Technology (Class of 2010), and
-                  I have been actively involved in the education sector since
-                  2012. We are committed to fostering a nurturing and innovative
-                  environment for our students, preparing them for a successful
-                  future.
+                  I am Muhammad Sadquain Salahuddin, the founder and principal of E&D. I hold a Bachelor
+                  of Engineering from NED University of Engineering and Technology (Class of 2010), and I
+                  have been actively involved in the education sector since 2012. Our mission is to provide a
+                  nurturing, innovative, and result-oriented environment, where students receive not only
+                  academic guidance but also access to weekly tests, MCQs, preliminary exams, AI tutors,
+                  study materials, and recorded lectures to maximize learning.
+                </p>
+                <p className="mt-4" >
+                  At E&D, we are committed to preparing future engineers and doctors by combining rigorous
+                  academics, personalized support, and modern technology, ensuring every student has the tools
+                  and confidence to succeed.
                 </p>
               </div>
             </div>
@@ -152,17 +152,20 @@ export default async function About() {
                   <span>ABOUT US</span>
                   <h2>Our Mission</h2>
                   <p>
-                    Our mission is to provide quality education that develops
-                    confident learners, strong character, and real-world skills
-                    through modern teaching methods and a nurturing environment.
+                    At Engineers & Doctors Inn (E&D), our mission is to provide top-quality coaching and
+                    complete academic support to help students excel in board exams, MDCAT, and ECAT. We
+                    aim to create a result-oriented, supportive, and innovative learning environment, where
+                    every student receives personalized guidance and tools for success.
                   </p>
                   <ul>
-                    <li>Build critical thinking through STEM-based learning</li>
+                    <li>Strengthen concepts and problem-solving through structured coaching and practice
+                      tests</li>
                     <li>
-                      Encourage creativity with arts, craft, and activities
+                      Enhance learning with AI Tutor, recorded lectures, and comprehensive study notes
                     </li>
                     <li>
-                      Support every child with care, discipline, and guidance
+                      Support every student with care, discipline, and continuous feedback for academic
+                      excellence
                     </li>
                   </ul>
                 </div>
@@ -182,11 +185,11 @@ export default async function About() {
               <div className="section-title">
                 <h2>Why Choose Us</h2>
                 <p>
-                  Engineers &amp; Doctors School provides a balanced,
-                  future-focused education where students learn through modern
-                  teaching methods, strong academic foundations, and a caring
-                  environment that supports every child’s growth in and beyond
-                  the classroom.
+                  Engineers & Doctors Inn (E&D) offers result-oriented coaching for IX–XII, MDCAT, and
+                  ECAT, combining strong academic foundations, structured assessments, and personalized
+                  guidance. We provide a supportive and innovative learning environment, enhanced with AI
+                  Tutor, recorded lectures, study notes, and practice tests, ensuring every student is fully
+                  prepared to achieve their goals and succeed in exams
                 </p>
                 <Link
                   href="/contact"
@@ -283,14 +286,15 @@ export default async function About() {
         <div className="container">
           <div className="section-title text-center">
             <h2>
-              Meet Our
-              <br />
               Teachers
             </h2>
             <p>
-              Our teaching team combines strong subject expertise with care and
-              guidance, helping students learn confidently through modern,
-              student-centered methods.
+              At Engineers & Doctors Inn (E&D), our strength lies in our highly experienced and qualified
+              teaching team. All our teachers are college lecturers with years of academic expertise,
+              dedicated to providing top-class coaching, personalized guidance, and strong conceptual
+              understanding. They focus on building confidence, problem-solving skills, and exam
+              readiness in every student, ensuring that each learner receives the support and mentorship
+              needed to achieve academic success.
             </p>
           </div>
 

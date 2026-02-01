@@ -13,17 +13,14 @@ export default function Home() {
               <div className="col-lg-7 col-md-7">
                 <div className="banner-text wow fadeInLeft" data-wow-duration="1000ms">
                   <h2>
-                    A School That Builds
-                    <span>Future Innovators</span>
+                    Shaping Students
+                    <span>into Professionals</span>
                   </h2>
                   <p>
-                    At Engineers & Doctors School, we provide a
-                    future-focused education that blends
-                    STEM-based learning, multilingual education, robotics and
-                    technology, art and craft,
-                    and computer literacy helping every child think critically,
-                    create boldly, and grow
-                    in a nurturing environment.
+                    E&D is dedicated to empowering students to realize their Dreams. Our experienced teachers include
+                    college lecturers, and our students consistently achieve top positions in the Karachi Matriculation and
+                    Intermediate Boards. With an alumni network spanning the globe, we are committed to nurturing the
+                    leaders and innovators of tomorrow.
                   </p>
 
                   <div className="lnk-dv">
@@ -59,13 +56,11 @@ export default function Home() {
       <section className="about-us-section">
         <div className="container">
           <div className="section-title text-center">
-            <h2>Welcome to <span>Engineers & Doctors School</span></h2>
+            <h2>Welcome to  <span>Engineers & Doctors Inn </span></h2>
             <p>
-              A future-focused school where STEM-based learning, robotics,
-              languages, arts, and
-              digital literacy come together to help every child discover their
-              potential in a
-              caring and nurturing environment.
+              A future-focused institute offering expert coaching for IX–X–XI–XII, MDCAT, and ECAT as well as
+              Computer & Language Programs empowering students with strong concepts, exam strategies, and
+              confidence to achieve their engineering and medical goals in a supportive learning environment.
             </p>
           </div>
           {/* section-title end */}
@@ -76,11 +71,11 @@ export default function Home() {
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms">
                     <Image src="/webImages/icon5.png" alt="" width={64} height={64} />
-                    <h3>Qualified & Caring Teachers</h3>
+                    <h3>IX-X</h3>
                     <p>
-                      Dedicated teachers who provide individual attention,
-                      guidance, and support
-                      to help every student grow with confidence.
+                      Online & Physical Classes
+                      Theory & Practical Classes
+                      Science & Computer Science
                     </p>
                   </div>
                   {/* abt-col end */}
@@ -89,11 +84,11 @@ export default function Home() {
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
                     <Image src="/webImages/icon7.png" alt="" width={64} height={64} />
-                    <h3>STEM & Robotics Focus</h3>
+                    <h3>XI-XII </h3>
                     <p>
-                      Hands-on learning through STEM activities, robotics, and
-                      technology
-                      integration to prepare students for tomorrow world.
+                      Online & Physical Classes
+                      Theory & Practical Classes
+                      Pre-Engineering, Pre-Medical, Computer Science, Commerce
                     </p>
                   </div>
                   {/* abt-col end */}
@@ -102,11 +97,11 @@ export default function Home() {
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                     <Image src="/webImages/icon8.png" alt="" width={64} height={64} />
-                    <h3>Languages & Communication</h3>
+                    <h3>MDCAT-ECAT-CCAT </h3>
                     <p>
-                      Strong focus on language skills and communication to help
-                      students express
-                      themselves confidently in and beyond the classroom.
+                      Online & Physical Classes
+                      Engineering & Medical University Test Preparation
+                      NED-NUST-DUET-FAST-IBA-DUHS-JSMU-KMDC
                     </p>
                   </div>
                   {/* abt-col end */}
@@ -115,11 +110,10 @@ export default function Home() {
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <Image src="/webImages/icon9.png" alt="" width={64} height={64} />
-                    <h3>Holistic Student Support</h3>
+                    <h3>Computer & Language Programs </h3>
                     <p>
-                      A nurturing environment that balances academics, character
-                      building,
-                      co-curricular activities, and student well-being.
+                      CIT, DIT, Graphics, Web Development, Digital Marketing etc
+                      English Grammar, vocabulary, reading, writing, and speaking
                     </p>
                   </div>
                   {/* abt-col end */}
@@ -142,12 +136,10 @@ export default function Home() {
       <section className="classes-section">
         <div className="container">
           <div className="sec-title">
-            <h2>Academic Programs & Activities</h2>
+            <h2>Academic Support & Exam Readiness</h2>
             <p>
-              At Engineers & Doctors School, we provide a robust academic framework
-              that combines rigorous classroom instruction with practical
-              application, empowering students to master core subjects and develop
-              the analytical skills required for future professional success.
+              At Engineers & Doctors Inn (E&D), we provide structured support and regular assessments to ensure
+              complete exam preparation and student success.
             </p>
           </div>
           {/* sec-title end */}
@@ -365,17 +357,20 @@ export default function Home() {
             <div className="col-lg-6">
               <div className="find-course">
                 <div className="sec-title">
-                  <h2>Admissions & Information</h2>
+                  <h2>Admission Process</h2>
                   <p>
-                    A future-focused school offering STEM-based learning,
-                    multilingual education,
-                    robotics, arts, and digital literacy in a nurturing
-                    environment for students
-                    from Montessori to Grade X.
+                    For admission at Engineers & Doctors Inn (E&D), students and parents are welcome to visit our
+                    campuses for an interview with the Admissions In-Charge. Applicants are provided with complete details
+                    and a schedule for the admission test. Candidates who successfully qualify the test are offered admission
+                    to E&D’s on-campus (physical) classes.
+                  </p>
+                  <p>In addition to physical classes, E&D also offers online learning programs through a dedicated Learning
+                    Management System (LMS). Our online students benefit from live interactive classes, recorded lectures,
+                    and complete study materials, ensuring flexible and effective learning from anywhere.
                   </p>
                   <h3>
                     <i className="fa-solid fa-phone"></i>Call / WhatsApp:
-                    <strong><a href="tel:+923112197685">+92 311 2197685</a></strong>
+                    <strong><a href="tel:+923112197685">+92 315 221 9374 </a></strong>
                   </h3>
                 </div>
                 {/* sec-title end */}
@@ -491,12 +486,10 @@ export default function Home() {
       <section className="blog-section">
         <div className="container">
           <div className="section-title text-center">
-            <h2>News & Updates</h2>
+            <h2>Events & Activities</h2>
             <p>
-              Stay informed about the latest events, achievements, announcements
-              and
-              activities happening at Engineers & Doctors School throughout
-              the year.
+              stay informed about the latest events, achievements, announcements and activities happening at
+              Engineers & Doctors Inn throughout the year.
             </p>
           </div>
           {/* section-title end */}
@@ -519,13 +512,16 @@ export default function Home() {
                       </li>
                     </ul>
                     <h3>
-                      <a href="#" title="">Admissions Open for Montessori to Grade
-                        X</a>
+                      <a href="#" title="">Annual Award Ceremony</a>
                     </h3>
                     <p>
-                      Registrations are now open for the new academic session.
-                      Parents are invited
-                      to visit the campus for details and admission guidance.
+                      At E&D, we celebrate excellence through our Annual Award Ceremony, recognizing the top
+                      achievers of the year. Awards are presented to students who have excelled academically,
+                      motivating them to continue their hard work. This event also serves as an inspiration for
+                      currently enrolled students, encouraging them to strive for success. Additionally, our dedicated
+                      teachers are appreciated for their continuous efforts in guiding and mentoring students
+                      throughout the year, making this ceremony a celebration of both student achievement and teacher
+                      dedication.
                     </p>
                   </div>
                 </div>
@@ -548,14 +544,14 @@ export default function Home() {
                       </li>
                     </ul>
                     <h3>
-                      <a href="#" title="">STEM & Robotics Exhibition
-                        Highlights</a>
+                      <a href="#" title="">Annual Sports Day </a>
                     </h3>
                     <p>
-                      Students presented creative projects in robotics, coding
-                      and science, showcasing
-                      their problem-solving skills and innovative thinking in
-                      front of parents and guests.
+                      Our Annual Sports Day is a fun-filled and energetic event where students get the chance to
+                      participate in various sports and activities. It promotes teamwork, physical fitness, and
+                      sportsmanship, while also providing a day of enjoyment and relaxation away from regular
+                      academics. Sports Day helps students build confidence, social skills, and a healthy
+                      competitive spirit.
                     </p>
                   </div>
                 </div>
@@ -578,14 +574,13 @@ export default function Home() {
                       </li>
                     </ul>
                     <h3>
-                      <a href="#" title="">Annual Sports Day & Games
-                        Festival</a>
+                      <a href="#" title="">Annual Picnic</a>
                     </h3>
                     <p>
-                      A full day of races, games and team events helped students
-                      build confidence,
-                      sportsmanship and a healthy competitive spirit on the
-                      field.
+                      The Annual Picnic is another highlight of the year at E&D, offering students an opportunity to
+                      bond with classmates and teachers outside the classroom. It is a day filled with fun, learning,
+                      and recreation, helping students relax, rejuvenate, and create lasting memories in a safe and
+                      enjoyable environment.
                     </p>
                   </div>
                 </div>

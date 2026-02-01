@@ -79,7 +79,7 @@ export function generateSubmittedEmail(name: string, purpose: string, date: stri
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
-                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 311 2197685</a> • 
+                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
                 </p>
               </td>
@@ -168,7 +168,7 @@ export function generateConfirmationEmail(name: string, purpose: string, date: s
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
-                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 311 2197685</a> • 
+                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
                 </p>
               </td>
@@ -231,7 +231,7 @@ export function generateRejectionEmail(name: string, reason?: string): string {
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
-                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 311 2197685</a> • 
+                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
                 </p>
               </td>
@@ -317,7 +317,7 @@ export function generateRescheduleEmail(name: string, newDate: string, newTime: 
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
-                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 311 2197685</a> • 
+                  <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
                 </p>
               </td>
