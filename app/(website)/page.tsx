@@ -151,18 +151,19 @@ export default function Home() {
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms">
                   <div className="class-thumb">
                     <Image src="/webImages/Rebotics-Science.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Robotics Fair & Science Projects" className="crt-btn">
+                    <Link href="/" title="Robotics Fair & Science Projects" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Robotics Fair & Science Projects">
-                        Robotics Fair & Science Projects
+                      <Link href="/" title="Robotics Fair & Science Projects">
+                        MCQs-based assessments
                       </Link>
                     </h3>
                     <p>
-                      Robotics projects spark curiosity and love for science.
+                      weekly tests, MCQs-based assessments, and full-length preliminary examinations
+                      are conducted to evaluate students’ progress and strengthen their exam readiness.
                     </p>
                   </div>
                 </div>
@@ -174,19 +175,19 @@ export default function Home() {
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
                   <div className="class-thumb">
                     <Image src="/webImages/img2.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Art Exhibitions & Cultural Festivals" className="crt-btn">
+                    <Link href="/" title="Art Exhibitions & Cultural Festivals" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Art Exhibitions & Cultural Festivals">
-                        Art Exhibitions & Cultural Festivals
+                      <Link href="/" title="Parent–Teacher Meetings">
+                        Parent–Teacher Meetings
                       </Link>
                     </h3>
                     <p>
-                      Art events grow confidence, celebrate culture and
-                      creativity.
+                      are held to review performance in detail and to work together on improving the student’s
+                      academic outcomes through personalized guidance.
                     </p>
                   </div>
                 </div>
@@ -198,19 +199,19 @@ export default function Home() {
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                   <div className="class-thumb">
                     <Image src="/webImages/img3.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Sports Day & Outdoor Games" className="crt-btn">
+                    <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Sports Day & Outdoor Games">
-                        Sports Day & Outdoor Games
+                      <Link href="/" title="Sports Day & Outdoor Games">
+                        Comprehensive Study Materials
                       </Link>
                     </h3>
                     <p>
-                      Sports activities build fitness, discipline, teamwork and
-                      resilience.
+                      including well-structured notes, preparation papers, and recorded lectures, enabling students
+                      to revise effectively at home.
                     </p>
                   </div>
                 </div>
@@ -222,115 +223,117 @@ export default function Home() {
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                   <div className="class-thumb">
                     <Image src="/webImages/ClubsTrips.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Clubs, Trips & Co-Curriculars" className="crt-btn">
+                    <Link href="/" title="Clubs, Trips & Co-Curriculars" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Clubs, Trips & Co-Curriculars">
-                        Clubs, Trips & Co-Curriculars
+                      <Link href="/" title="Clubs, Trips & Co-Curriculars">
+                        E&D AI Tutor
                       </Link>
                     </h3>
                     <p>
-                      Clubs and trips explore interests, friendships and
-                      experiences.
+                      an advanced learning assistant that provides quick and accurate answers directly from their
+                      textbooks, helping them clarify concepts and study more efficiently anytime, anywhere.
+
                     </p>
                   </div>
                 </div>
                 {/* classes-col end */}
               </div>
 
-              {/* Card 5 */}
+              {/* Card 1 */}
               <div className="col-lg-12">
-                <div className="classes-col">
+                <div className="classes-col wow fadeInUp" data-wow-duration="1000ms">
                   <div className="class-thumb">
                     <Image src="/webImages/Rebotics-Science.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Science & Robotics Exhibitions" className="crt-btn">
+                    <Link href="/" title="Robotics Fair & Science Projects" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Science & Robotics Exhibitions">
-                        Science & Robotics Exhibitions
+                      <Link href="/" title="Robotics Fair & Science Projects">
+                        MCQs-based assessments
                       </Link>
                     </h3>
                     <p>
-                      Science exhibitions showcase experiments, ideas and
-                      student innovation.
+                      weekly tests, MCQs-based assessments, and full-length preliminary examinations
+                      are conducted to evaluate students’ progress and strengthen their exam readiness.
                     </p>
                   </div>
                 </div>
                 {/* classes-col end */}
               </div>
 
-              {/* Card 6 */}
+              {/* Card 2 */}
               <div className="col-lg-12">
-                <div className="classes-col">
+                <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
                   <div className="class-thumb">
                     <Image src="/webImages/img2.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Stage Shows & Cultural Nights" className="crt-btn">
+                    <Link href="/" title="Art Exhibitions & Cultural Festivals" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Stage Shows & Cultural Nights">
-                        Stage Shows & Cultural Nights
+                      <Link href="/" title="Parent–Teacher Meetings">
+                        Parent–Teacher Meetings
                       </Link>
                     </h3>
                     <p>
-                      Stage shows develop expression, confidence and
-                      communication skills.
+                      are held to review performance in detail and to work together on improving the student’s
+                      academic outcomes through personalized guidance.
                     </p>
                   </div>
                 </div>
                 {/* classes-col end */}
               </div>
 
-              {/* Card 7 */}
+              {/* Card 3 */}
               <div className="col-lg-12">
-                <div className="classes-col">
+                <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                   <div className="class-thumb">
                     <Image src="/webImages/img3.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Inter-School Sports & Games" className="crt-btn">
+                    <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Inter-School Sports & Games">
-                        Inter-School Sports & Games
+                      <Link href="/" title="Sports Day & Outdoor Games">
+                        Comprehensive Study Materials
                       </Link>
                     </h3>
                     <p>
-                      Inter-school games teach teamwork, discipline, respect and
-                      sportsmanship.
+                      including well-structured notes, preparation papers, and recorded lectures, enabling students
+                      to revise effectively at home.
                     </p>
                   </div>
                 </div>
                 {/* classes-col end */}
               </div>
 
-              {/* Card 8 */}
+              {/* Card 4 */}
               <div className="col-lg-12">
-                <div className="classes-col">
+                <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                   <div className="class-thumb">
                     <Image src="/webImages/ClubsTrips.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
-                    <Link href="/academics" title="Club Activities & Educational Tours" className="crt-btn">
+                    <Link href="/" title="Clubs, Trips & Co-Curriculars" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
                   </div>
                   <div className="class-info">
                     <h3>
-                      <Link href="/academics" title="Club Activities & Educational Tours">
-                        Club Activities & Educational Tours
+                      <Link href="/" title="Clubs, Trips & Co-Curriculars">
+                        E&D AI Tutor
                       </Link>
                     </h3>
                     <p>
-                      Educational tours connect classroom learning with
-                      real-world understanding.
+                      an advanced learning assistant that provides quick and accurate answers directly from their
+                      textbooks, helping them clarify concepts and study more efficiently anytime, anywhere.
+
                     </p>
                   </div>
                 </div>
@@ -339,7 +342,7 @@ export default function Home() {
             </div>
 
             <div className="lnk-dv text-center">
-              <Link href="/academics" title="View all events and activities" className="btn-default">
+              <Link href="/acaemics" title="View all events and activities" className="btn-default">
                 View All Academics & Activities <i className="fa fa-long-arrow-alt-right"></i>
               </Link>
             </div>
@@ -398,7 +401,7 @@ export default function Home() {
                     <span>Age 3–10</span>
                   </div>
                   <h3>
-                    <Link href="/academics" title="Montessori & Primary Section">
+                    <Link href="/" title="Montessori & Primary Section">
                       Montessori & Primary Section
                     </Link>
                   </h3>
@@ -426,7 +429,7 @@ export default function Home() {
                     <span>Age 11–16</span>
                   </div>
                   <h3>
-                    <Link href="/academics" title="Secondary School Program">
+                    <Link href="/" title="Secondary School Program">
                       Secondary School Program
                     </Link>
                   </h3>

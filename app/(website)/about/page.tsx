@@ -282,43 +282,7 @@ export default async function About() {
       </section>
       {/* benifit-section end */}
 
-      <section className="teachers-section">
-        <div className="container">
-          <div className="section-title text-center">
-            <h2>
-              Teachers
-            </h2>
-            <p>
-              At Engineers & Doctors Inn (E&D), our strength lies in our highly experienced and qualified
-              teaching team. All our teachers are college lecturers with years of academic expertise,
-              dedicated to providing top-class coaching, personalized guidance, and strong conceptual
-              understanding. They focus on building confidence, problem-solving skills, and exam
-              readiness in every student, ensuring that each learner receives the support and mentorship
-              needed to achieve academic success.
-            </p>
-          </div>
-
-          <div className="teachers">
-            {success && teachersList ? (
-              <TeachersSlider teachers={teachersList} />
-            ) : (
-              <p className="text-center text-red-500">
-                Failed to load teachers.
-              </p>
-            )}
-          </div>
-
-          <div className="lnk-dv text-center mt-5">
-            <Link
-              href="/teachers"
-              title="View More Teachers"
-              className="btn-default"
-            >
-              View More Teachers <i className="fa fa-long-arrow-alt-right"></i>
-            </Link>
-          </div>
-        </div>
-      </section>
+   
 
       {/* classes-section start */}
       <section className="classes-section">
@@ -352,7 +316,7 @@ export default async function About() {
                       className="w-100 h-auto"
                     />
                     <Link
-                      href="/academics"
+                      href="/"
                       title="Robotics Fair & Science Projects"
                       className="crt-btn"
                     >
@@ -362,7 +326,7 @@ export default async function About() {
                   <div className="class-info">
                     <h3>
                       <Link
-                        href="/academics"
+                        href="/"
                         title="Robotics Fair & Science Projects"
                       >
                         Robotics Fair &amp; Science Projects
@@ -393,7 +357,7 @@ export default async function About() {
                       className="w-100 h-auto"
                     />
                     <Link
-                      href="/academics"
+                      href="/"
                       title="Art Exhibitions & Cultural Festivals"
                       className="crt-btn"
                     >
@@ -403,7 +367,7 @@ export default async function About() {
                   <div className="class-info">
                     <h3>
                       <Link
-                        href="/academics"
+                        href="/"
                         title="Art Exhibitions & Cultural Festivals"
                       >
                         Art Exhibitions &amp; Cultural Festivals
@@ -435,7 +399,7 @@ export default async function About() {
                       className="w-100 h-auto"
                     />
                     <Link
-                      href="/academics"
+                      href="/"
                       title="Sports Day & Outdoor Games"
                       className="crt-btn"
                     >
@@ -445,7 +409,7 @@ export default async function About() {
                   <div className="class-info">
                     <h3>
                       <Link
-                        href="/academics"
+                        href="/"
                         title="Sports Day & Outdoor Games"
                       >
                         Sports Day &amp; Outdoor Games
@@ -476,7 +440,7 @@ export default async function About() {
                       className="w-100 h-auto"
                     />
                     <Link
-                      href="/academics"
+                      href="/"
                       title="Clubs, Trips & Co-Curriculars"
                       className="crt-btn"
                     >
@@ -486,7 +450,7 @@ export default async function About() {
                   <div className="class-info">
                     <h3>
                       <Link
-                        href="/academics"
+                        href="/"
                         title="Clubs, Trips & Co-Curriculars"
                       >
                         Clubs, Trips &amp; Co-Curriculars
@@ -503,7 +467,7 @@ export default async function About() {
 
             <div className="lnk-dv text-center">
               <Link
-                href="/academics"
+                href="/"
                 title="View all events and activities"
                 className="btn-default"
               >

@@ -90,7 +90,7 @@ export default function Footer() {
                   <h3 className="widget-title">Quick Links</h3>
                   <ul>
                     <li><Link href="/about" title="About Engineers & Doctors School">About Us</Link></li>
-                    <li><Link href="/academics" title="Academic programs">Academics</Link></li>
+                    <li><Link href="/teachers" title="Teachers programs">Teachers</Link></li>
                     <li><Link href="/admission" title="Facilities and student life">Admissions</Link></li>
                     <li><Link href="/gallery" title="Gallery">Gallery</Link></li>
                     <li><Link href="/contact" title="Contact">Contact</Link></li>

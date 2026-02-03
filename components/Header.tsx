@@ -103,8 +103,8 @@ export default function Header() {
                 </Link>
               </li>
               <li>
-                <Link href="/academics" title="academics" className={isActive("/academics")} onClick={closeMenu}>
-                  Academics
+                <Link href="/teachers" title="Teachers" className={isActive("/teachers")} onClick={closeMenu}>
+                  Teachers
                 </Link>
               </li>
               <li>
@@ -147,8 +147,8 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link className={isActive("/academics")} href="/academics" title="Academic Programs" onClick={closeMenu}>
-              Academics
+            <Link className={isActive("/teachers")} href="/teachers" title="Teachers" onClick={closeMenu}>
+              Teachers
             </Link>
           </li>
           <li>
