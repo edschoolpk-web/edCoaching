@@ -26,7 +26,7 @@ interface DashboardProps {
 export default function DashboardClient({ stats }: DashboardProps) {
   const { data: session } = useSession();
   // Safe defaults
-  const counts = stats?.counts || { teachers: 0, activeNotice: false };
+  const counts = stats?.counts || { teachers: 0, gallery: 0, activeNotice: false };
   const recent = stats?.recentActivity || [];
 
   const [currentDate, setCurrentDate] = React.useState('');
