@@ -174,7 +174,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/img2.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/parentsteachersmeeting.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Art Exhibitions & Cultural Festivals" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -271,7 +271,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/img2.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/parentsteachersmeeting.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Art Exhibitions & Cultural Festivals" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -502,7 +502,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="blog-post">
                   <div className="blog-thumbnail">
-                    <Image src="/webImages/blog5.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/annualaward.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <span className="category">Admissions</span>
                   </div>
                   <div className="blog-info">
@@ -534,7 +534,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="blog-post">
                   <div className="blog-thumbnail">
-                    <Image src="/webImages/blog2.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/sportsday.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <span className="category">STEM</span>
                   </div>
                   <div className="blog-info">
@@ -564,7 +564,7 @@ export default function Home() {
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="blog-post">
                   <div className="blog-thumbnail">
-                    <Image src="/webImages/blog3.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/picnic.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <span className="category">Student Life</span>
                   </div>
                   <div className="blog-info">

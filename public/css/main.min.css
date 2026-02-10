@@ -20356,6 +20356,7 @@ a.crt-btn i {
 .blog-section .blog-posts .blog-post .blog-thumbnail {
   position: relative;
   margin-bottom: 20px;
+  height: 270px;
 }
 
 .blog-section .blog-posts .blog-post .blog-thumbnail:before {
@@ -24363,4 +24364,10 @@ footer .top-footer .contact-info i {
 
 .teacher-single-section {
   padding: 138px 0 0;
+}
+
+.blog-section .blog-posts .blog-post .blog-thumbnail img {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
 }
