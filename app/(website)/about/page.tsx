@@ -138,7 +138,7 @@ export default async function About() {
               <div className="col-lg-6 col-md-6">
                 <div className="avt-img">
                   <Image
-                    src="/webImages/abt2.png"
+                    src="/webImages/newimages/mission.png"
                     alt="About Image 2"
                     width={500}
                     height={400}
@@ -285,200 +285,223 @@ export default async function About() {
    
 
       {/* classes-section start */}
-      <section className="classes-section">
-        <div className="container">
-          <div className="sec-title">
-            <h2>Events &amp; Student Activities</h2>
-            <p>
-              At Engineers &amp; Doctors School, students take part in engaging
-              event projects, sports activities, art and cultural programs, and
-              STEM-based competitions that build confidence, teamwork, and
-              real-world skills beyond the classroom.
-            </p>
-          </div>
-          {/* sec-title end */}
-
-          <div className="classes-sec">
-            <div className="row classes-carousel">
-              {/* Card 1 */}
-              <div className="col-lg-12">
-                <div
-                  className="classes-col wow fadeInUp"
-                  data-wow-duration="1000ms"
-                >
-                  <div className="class-thumb">
-                    <Image
-                      src="/webImages/img1.jpg"
-                      alt="Robotics Fair"
-                      width={0}
-                      height={0}
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="w-100 h-auto"
-                    />
-                    <Link
-                      href="/"
-                      title="Robotics Fair & Science Projects"
-                      className="crt-btn"
-                    >
-                      <i className="fa fa-arrow-right"></i>
-                    </Link>
-                  </div>
-                  <div className="class-info">
-                    <h3>
-                      <Link
-                        href="/"
-                        title="Robotics Fair & Science Projects"
-                      >
-                        Robotics Fair &amp; Science Projects
-                      </Link>
-                    </h3>
-                    <p>
-                      Robotics projects spark curiosity and love for science.
-                    </p>
-                  </div>
-                </div>
-                {/* classes-col end */}
-              </div>
-
-              {/* Card 2 */}
-              <div className="col-lg-12">
-                <div
-                  className="classes-col wow fadeInUp"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="200ms"
-                >
-                  <div className="class-thumb">
-                    <Image
-                      src="/webImages/img2.jpg"
-                      alt="Art Exhibitions"
-                      width={0}
-                      height={0}
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="w-100 h-auto"
-                    />
-                    <Link
-                      href="/"
-                      title="Art Exhibitions & Cultural Festivals"
-                      className="crt-btn"
-                    >
-                      <i className="fa fa-arrow-right"></i>
-                    </Link>
-                  </div>
-                  <div className="class-info">
-                    <h3>
-                      <Link
-                        href="/"
-                        title="Art Exhibitions & Cultural Festivals"
-                      >
-                        Art Exhibitions &amp; Cultural Festivals
-                      </Link>
-                    </h3>
-                    <p>
-                      Art events grow confidence, celebrate culture and
-                      creativity.
-                    </p>
-                  </div>
-                </div>
-                {/* classes-col end */}
-              </div>
-
-              {/* Card 3 */}
-              <div className="col-lg-12">
-                <div
-                  className="classes-col wow fadeInUp"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="400ms"
-                >
-                  <div className="class-thumb">
-                    <Image
-                      src="/webImages/img3.jpg"
-                      alt="Sports Day"
-                      width={0}
-                      height={0}
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="w-100 h-auto"
-                    />
-                    <Link
-                      href="/"
-                      title="Sports Day & Outdoor Games"
-                      className="crt-btn"
-                    >
-                      <i className="fa fa-arrow-right"></i>
-                    </Link>
-                  </div>
-                  <div className="class-info">
-                    <h3>
-                      <Link
-                        href="/"
-                        title="Sports Day & Outdoor Games"
-                      >
-                        Sports Day &amp; Outdoor Games
-                      </Link>
-                    </h3>
-                    <p>
-                      Sports activities build fitness, discipline, teamwork and
-                      resilience.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Card 4 */}
-              <div className="col-lg-12">
-                <div
-                  className="classes-col wow fadeInUp"
-                  data-wow-duration="1000ms"
-                  data-wow-delay="600ms"
-                >
-                  <div className="class-thumb">
-                    <Image
-                      src="/webImages/img4.jpg"
-                      alt="Clubs & Trips"
-                      width={0}
-                      height={0}
-                      sizes="(max-width: 768px) 100vw, 33vw"
-                      className="w-100 h-auto"
-                    />
-                    <Link
-                      href="/"
-                      title="Clubs, Trips & Co-Curriculars"
-                      className="crt-btn"
-                    >
-                      <i className="fa fa-arrow-right"></i>
-                    </Link>
-                  </div>
-                  <div className="class-info">
-                    <h3>
-                      <Link
-                        href="/"
-                        title="Clubs, Trips & Co-Curriculars"
-                      >
-                        Clubs, Trips &amp; Co-Curriculars
-                      </Link>
-                    </h3>
-                    <p>
-                      Clubs and trips explore interests, friendships and
-                      experiences.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="lnk-dv text-center">
-              <Link
-                href="/"
-                title="View all events and activities"
-                className="btn-default"
-              >
-                View All Events &amp; Activities{" "}
-                <i className="fa fa-long-arrow-alt-right"></i>
-              </Link>
-            </div>
-          </div>
-          {/* classes-sec end */}
-        </div>
-      </section>
+     <section className="classes-section">
+             <div className="container">
+               <div className="sec-title">
+                 <h2>Academic Support & Exam Readiness</h2>
+                 <p>
+                   At Engineers & Doctors Inn (E&D), we provide structured support and regular assessments to ensure
+                   complete exam preparation and student success.
+                 </p>
+               </div>
+               {/* sec-title end */}
+     
+               <div className="classes-sec">
+                 <div className="row classes-carousel">
+                   {/* Card 1 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/Rebotics-Science.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Robotics Fair & Science Projects" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Robotics Fair & Science Projects">
+                             MCQs-based assessments
+                           </Link>
+                         </h3>
+                         <p>
+                           weekly tests, MCQs-based assessments, and full-length preliminary examinations
+                           are conducted to evaluate students’ progress and strengthen their exam readiness.
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+     
+                   {/* Card 2 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/newimages/parentsteachersmeeting.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Art Exhibitions & Cultural Festivals" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Parent–Teacher Meetings">
+                             Parent–Teacher Meetings
+                           </Link>
+                         </h3>
+                         <p>
+                           are held to review performance in detail and to work together on improving the student’s
+                           academic outcomes through personalized guidance.
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+     
+                   {/* Card 3 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/img3.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Sports Day & Outdoor Games">
+                             Comprehensive Study Materials
+                           </Link>
+                         </h3>
+                         <p>
+                           including well-structured notes, preparation papers, and recorded lectures, enabling students
+                           to revise effectively at home.
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+     
+                   {/* Card 4 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/ClubsTrips.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Clubs, Trips & Co-Curriculars" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Clubs, Trips & Co-Curriculars">
+                             E&D AI Tutor
+                           </Link>
+                         </h3>
+                         <p>
+                           an advanced learning assistant that provides quick and accurate answers directly from their
+                           textbooks, helping them clarify concepts and study more efficiently anytime, anywhere.
+     
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+     
+                   {/* Card 1 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/Rebotics-Science.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Robotics Fair & Science Projects" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Robotics Fair & Science Projects">
+                             MCQs-based assessments
+                           </Link>
+                         </h3>
+                         <p>
+                           weekly tests, MCQs-based assessments, and full-length preliminary examinations
+                           are conducted to evaluate students’ progress and strengthen their exam readiness.
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+     
+                   {/* Card 2 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/newimages/parentsteachersmeeting.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Art Exhibitions & Cultural Festivals" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Parent–Teacher Meetings">
+                             Parent–Teacher Meetings
+                           </Link>
+                         </h3>
+                         <p>
+                           are held to review performance in detail and to work together on improving the student’s
+                           academic outcomes through personalized guidance.
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+     
+                   {/* Card 3 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/img3.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Sports Day & Outdoor Games">
+                             Comprehensive Study Materials
+                           </Link>
+                         </h3>
+                         <p>
+                           including well-structured notes, preparation papers, and recorded lectures, enabling students
+                           to revise effectively at home.
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+     
+                   {/* Card 4 */}
+                   <div className="col-lg-12">
+                     <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
+                       <div className="class-thumb">
+                         <Image src="/webImages/ClubsTrips.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                         <Link href="/" title="Clubs, Trips & Co-Curriculars" className="crt-btn">
+                           <i className="fa fa-arrow-right"></i>
+                         </Link>
+                       </div>
+                       <div className="class-info">
+                         <h3>
+                           <Link href="/" title="Clubs, Trips & Co-Curriculars">
+                             E&D AI Tutor
+                           </Link>
+                         </h3>
+                         <p>
+                           an advanced learning assistant that provides quick and accurate answers directly from their
+                           textbooks, helping them clarify concepts and study more efficiently anytime, anywhere.
+     
+                         </p>
+                       </div>
+                     </div>
+                     {/* classes-col end */}
+                   </div>
+                 </div>
+     
+                 <div className="lnk-dv text-center">
+                   <Link href="/acaemics" title="View all events and activities" className="btn-default">
+                     View All Academics & Activities <i className="fa fa-long-arrow-alt-right"></i>
+                   </Link>
+                 </div>
+               </div>
+               {/* classes-sec end */}
+             </div>
+           </section>
       {/* classes-section end */}
 
       {/* newsletter-sec starts here */}
