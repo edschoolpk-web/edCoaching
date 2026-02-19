@@ -201,7 +201,7 @@ export async function POST(request: Request) {
 
     // Send notification to admin
     await sendEmail({
-      to: process.env.SMTP_FROM_EMAIL || "info@edschool.pk",
+      to: process.env.SMTP_FROM_EMAIL || "info@edinn.com.pk",
       subject: `🗓️ New Appointment Request - ${Name}`,
       html: generateAdminNotificationEmail(Name, email, phone, purposeLabel, Message, formattedDate, timeSlot),
       replyTo: `${Name} <${email}>`,

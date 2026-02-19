@@ -12,10 +12,7 @@ export default function Footer() {
                 <div className="widget widget-about">
                   <Image src="/webImages/logo.png" alt="Engineers & Doctors School Logo" width={200} height={60} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} />
                   <p>
-                    Engineers & Doctors School offers a future-focused
-                    education with STEM-based
-                    learning, robotics, languages, arts and digital literacy in
-                    a caring environment.
+                    Welcome to Engineers & Doctors Inn (E&D)! Established in 2012, our institute has been dedicated to empowering students to achieve their academic and career goals.
                   </p>
                   <div className="footer-social-icons">
                     <a href="https://www.facebook.com/p/Engineers-Doctors-School-100063617213651/" target="_blank" className="facebook" title="Facebook" aria-label="Facebook">
@@ -53,7 +50,7 @@ export default function Footer() {
                         <i className="fa-regular fa-envelope"></i>
                         <div className="contact-tt">
                           <h4>Email</h4>
-                          <span> <a href="mailto:info@edschool.pk">info@edschool.pk</a></span>
+                          <span> <a href="mailto:info@edinn.com.pk">info@edinn.com.pk</a></span>
                         </div>
                       </div>
                       {/* contact-info end */}

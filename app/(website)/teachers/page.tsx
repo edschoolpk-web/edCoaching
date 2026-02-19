@@ -4,10 +4,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Our Teachers | Engineers & Doctors School",
-  description: "Meet the dedicated team of educators at Engineers & Doctors School.",
+  description:
+    "Meet the dedicated team of educators at Engineers & Doctors School.",
   alternates: {
-      canonical: "https://edschool.pk/teachers"
-  }
+    canonical: "https://edschool.pk/teachers",
+  },
 };
 
 export default function TeachersPage() {
@@ -31,6 +32,19 @@ export default function TeachersPage() {
           <h2 className="page-titlee">E&D</h2>
         </div>
       </section>
+
+      <div className="section-title text-center mt-5">
+        <p>
+          At Engineers & Doctors Inn (E&D), our strength lies in our highly
+          experienced and qualified teaching team. All our teachers are college
+          lecturers with years of academic expertise, dedicated to providing
+          top-class coaching, personalized guidance, and strong conceptual
+          understanding. They focus on building confidence, problem-solving
+          skills, and exam readiness in every student, ensuring that each
+          learner receives the support and mentorship needed to achieve academic
+          success
+        </p>
+      </div>
 
       <section className="teachers-section">
         <div className="container">

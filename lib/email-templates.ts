@@ -80,7 +80,7 @@ export function generateSubmittedEmail(name: string, purpose: string, date: stri
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
-                  <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
+                  <a href="mailto:info@edinn.com.pk" style="color:#3a6ea5;text-decoration:none;">info@edinn.com.pk</a>
                 </p>
               </td>
             </tr>
@@ -169,7 +169,7 @@ export function generateConfirmationEmail(name: string, purpose: string, date: s
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
-                  <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
+                  <a href="mailto:info@edinn.com.pk" style="color:#3a6ea5;text-decoration:none;">info@edinn.com.pk</a>
                 </p>
               </td>
             </tr>
@@ -232,7 +232,7 @@ export function generateRejectionEmail(name: string, reason?: string): string {
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
-                  <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
+                  <a href="mailto:info@edinn.com.pk" style="color:#3a6ea5;text-decoration:none;">info@edinn.com.pk</a>
                 </p>
               </td>
             </tr>
@@ -318,7 +318,7 @@ export function generateRescheduleEmail(name: string, newDate: string, newTime: 
                 <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
-                  <a href="mailto:info@edschool.pk" style="color:#3a6ea5;text-decoration:none;">info@edschool.pk</a>
+                  <a href="mailto:info@edinn.com.pk" style="color:#3a6ea5;text-decoration:none;">info@edinn.com.pk</a>
                 </p>
               </td>
             </tr>

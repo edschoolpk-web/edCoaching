@@ -24,9 +24,9 @@ export const sendEmail = async ({
     const host = process.env.SMTP_HOST || "smtp.hostinger.com";
     const port = Number(process.env.SMTP_PORT || 465);
     const secure = (process.env.SMTP_SECURE ?? "true") === "true"; // ✅ true for 465 SSL
-    const user = process.env.SMTP_USER || "info@edschool.pk";
+    const user = process.env.SMTP_USER || "info@edinn.com.pk";
     const pass = process.env.SMTP_PASS || ""; // you MUST set this in .env
-    const fromEmail = process.env.SMTP_FROM_EMAIL || "info@edschool.pk";
+    const fromEmail = process.env.SMTP_FROM_EMAIL || "info@edinn.com.pk";
 
     const transporter = nodemailer.createTransport({
         host,

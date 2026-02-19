@@ -272,7 +272,7 @@ export default function Admission() {
                   SESSION {new Date().getFullYear()}-{new Date().getFullYear() + 1}
                 </span>
                 <h2 style={{ fontSize: "2.5rem", fontWeight: 800, color: "#1a1a1a" }}>Admission Application</h2>
-                <p className="text-muted">Register your child for a bright and successful future at Edinn School.</p>
+                <p className="text-muted">Join Engineers & Doctors Inn and give your child the opportunity to learn, grow, and excel.</p>
               </div>
 
               <form onSubmit={handleSubmit} className="modern-form">
@@ -373,7 +373,7 @@ export default function Admission() {
 
                   <div className="col-12">
                     <div className="modern-input-group">
-                      <label htmlFor="last_school">Last School Attended</label>
+                      <label htmlFor="last_school">School/College</label>
                       <input type="text" name="last_school" id="last_school" className="modern-input" placeholder="Which school was student previously attending?" />
                     </div>
                   </div>
@@ -538,7 +538,7 @@ export default function Admission() {
                       )}
                     </button>
                     <p className="text-center mt-3 text-muted small">
-                      By submitting, you agree to the school's terms and conditions regarding admissions.
+                      By submitting, you agree to the school's terms and conditions regarding admissions.E&D's
                     </p>
                   </div>
                 </div>

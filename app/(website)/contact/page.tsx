@@ -493,7 +493,7 @@ export default function Contact() {
                         <div className="dd-cont">
                           <h4>Email</h4>
                           <span>
-                            <a href="mailto:info@edschool.pk">info@edschool.pk</a>
+                            <a href="mailto:info@edinn.com.pk">info@edinn.com.pk</a>
                           </span>
                         </div>
                       </div>

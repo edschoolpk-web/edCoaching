@@ -29,7 +29,7 @@ export const teachers: Teacher[] = [
     role: 'Math Teacher',
     image: '/webImages/img5.jpg',
     detailImage: '/webImages/tech1.jpg',
-    email: 'info@edschool.pk',
+    email: 'info@edinn.com.pk',
     bio: 'Sir Gohar is a dedicated and experienced Mathematics teacher who explains concepts in a simple, logical, and engaging way. He focuses on building strong fundamentals, improving problem-solving skills, and helping students achieve academic success. Students appreciate his clear explanations and supportive teaching style.',
     dob: '15.03.1987',
     education: 'M.Sc. Mathematics', // Corrected from "Music School of Music Arts" which seemed like lorem ipsum
@@ -52,7 +52,7 @@ export const teachers: Teacher[] = [
     role: 'English Teacher',
     image: '/webImages/img6.jpg',
     detailImage: '/webImages/tech1.jpg', // Placeholder
-    email: 'info@edschool.pk',
+    email: 'info@edinn.com.pk',
     bio: 'Miss Ayesha is a passionate English teacher who inspires students to love literature and language.',
     dob: '01.01.1990',
     education: 'M.A. English',
@@ -73,7 +73,7 @@ export const teachers: Teacher[] = [
     role: 'Biology Teacher',
     image: '/webImages/img7.jpg',
     detailImage: '/webImages/tech1.jpg', // Placeholder
-    email: 'info@edschool.pk',
+    email: 'info@edinn.com.pk',
     bio: 'Miss Sumaiqa brings biology to life with practical examples and a hands-on approach to learning.',
     dob: '01.01.1992',
     education: 'M.Sc. Botany',
@@ -94,7 +94,7 @@ export const teachers: Teacher[] = [
     role: 'Islamiat Teacher',
     image: '/webImages/img8.jpg',
     detailImage: '/webImages/tech1.jpg', // Placeholder
-    email: 'info@edschool.pk',
+    email: 'info@edinn.com.pk',
     bio: 'Miss Afsha instills strong moral values and detailed knowledge of Islamic studies in her students.',
     dob: '01.01.1988',
     education: 'M.A. Islamic Studies',
