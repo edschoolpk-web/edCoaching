@@ -24371,3 +24371,7 @@ footer .top-footer .contact-info i {
     width: 100% !important;
     object-fit: cover;
 }
+
+.teachercontent p{
+  max-width: 1150px;
+}

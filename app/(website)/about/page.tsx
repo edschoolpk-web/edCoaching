@@ -225,7 +225,7 @@ export default async function About() {
                         data-wow-duration="1000ms"
                       >
                         <Image
-                          src="/webImages/icon5.png"
+                          src="/webImages/1.png"
                           alt=""
                           width={64}
                           height={64}
@@ -246,7 +246,7 @@ export default async function About() {
                         data-wow-delay="200ms"
                       >
                         <Image
-                          src="/webImages/icon7.png"
+                          src="/webImages/2.png"
                           alt=""
                           width={64}
                           height={64}
@@ -268,7 +268,7 @@ export default async function About() {
                         data-wow-delay="400ms"
                       >
                         <Image
-                          src="/webImages/icon8.png"
+                          src="/webImages/3.png"
                           alt=""
                           width={64}
                           height={64}
@@ -290,7 +290,7 @@ export default async function About() {
                         data-wow-delay="600ms"
                       >
                         <Image
-                          src="/webImages/icon9.png"
+                          src="/webImages/4.png"
                           alt=""
                           width={64}
                           height={64}

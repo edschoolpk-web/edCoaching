@@ -33,7 +33,7 @@ export default function TeachersPage() {
         </div>
       </section>
 
-      <div className="section-title text-center mt-5">
+      <div className="section-title teachercontent text-center mt-5">
         <p>
           At Engineers & Doctors Inn (E&D), our strength lies in our highly
           experienced and qualified teaching team. All our teachers are college

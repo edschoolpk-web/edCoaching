@@ -87,7 +87,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           <div className="sidebar-header">
             <div className="logo-container">
               <Image
-                src="/webImages/logo.png"
+                src="/webImages/logo2.png"
                 alt="E&D School"
                 width={180}
                 height={60}

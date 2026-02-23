@@ -70,7 +70,7 @@ export default function Home() {
               <div className="row">
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms">
-                    <Image src="/webImages/icon5.png" alt="" width={64} height={64} />
+                    <Image src="/webImages/1.png" alt="" width={64} height={64} />
                     <h3>IX-X</h3>
                     <p>
                       Online & Physical Classes
@@ -83,7 +83,7 @@ export default function Home() {
 
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="200ms">
-                    <Image src="/webImages/icon7.png" alt="" width={64} height={64} />
+                    <Image src="/webImages/2.png" alt="" width={64} height={64} />
                     <h3>XI-XII </h3>
                     <p>
                       Online & Physical Classes
@@ -96,7 +96,7 @@ export default function Home() {
 
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-                    <Image src="/webImages/icon8.png" alt="" width={64} height={64} />
+                    <Image src="/webImages/3.png" alt="" width={64} height={64} />
                     <h3>MDCAT-ECAT-CCAT </h3>
                     <p>
                       Online & Physical Classes
@@ -109,7 +109,7 @@ export default function Home() {
 
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="abt-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <Image src="/webImages/icon9.png" alt="" width={64} height={64} />
+                    <Image src="/webImages/4.png" alt="" width={64} height={64} />
                     <h3>Computer & Language Programs </h3>
                     <p>
                       CIT, DIT, Graphics, Web Development, Digital Marketing etc

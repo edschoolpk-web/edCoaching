@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="widget widget-about">
-                  <Image src="/webImages/logo.png" alt="Engineers & Doctors School Logo" width={200} height={60} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} />
+                  <Image src="/webImages/logo2.png" alt="Engineers & Doctors School Logo" width={200} height={60} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} />
                   <p>
                     Welcome to Engineers & Doctors Inn (E&D)! Established in 2012, our institute has been dedicated to empowering students to achieve their academic and career goals.
                   </p>

@@ -291,19 +291,22 @@ export default function Admission() {
                       <label htmlFor="admission_class">Class to Enroll In <span className="text-danger">*</span></label>
                       <select name="admission_class" id="admission_class" className="modern-select" required defaultValue="">
                         <option value="" disabled>Select Class</option>
-                        <option>Montessori (Pre-Primary)</option>
-                        <option>Prep I (Pre-Primary)</option>
-                        <option>Prep II (Pre-Primary)</option>
-                        <option>Grade I (Primary)</option>
-                        <option>Grade II (Primary)</option>
-                        <option>Grade III (Primary)</option>
-                        <option>Grade IV (Primary)</option>
-                        <option>Grade V (Primary)</option>
-                        <option>Grade VI (Secondary)</option>
-                        <option>Grade VII (Secondary)</option>
-                        <option>Grade VIII (Secondary)</option>
-                        <option>Grade IX (Secondary)</option>
-                        <option>Grade X (Secondary)</option>
+                        <option>IX (Science)</option>
+                        <option>IX (Computer Science)</option>
+                        <option>X (Science)</option>
+                        <option>X (Computer Science)</option>
+                        <option>XI (P.E )</option>
+                        <option>XI (P.M )</option>
+                        <option>XI (Computer Science)</option>
+                        <option>XI (Commerce)</option>
+                         <option>XII(P.E )</option>
+                        <option>XII (P.M )</option>
+                        <option>XII (Computer Science)</option>
+                        <option>XII (Commerce)</option>
+                        <option>Computer Course</option>
+                        <option>English Language</option>
+
+                
                       </select>
                     </div>
                   </div>
