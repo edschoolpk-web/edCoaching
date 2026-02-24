@@ -34,8 +34,8 @@ export default function Home() {
               <div className="col-lg-5 col-md-5">
                 <div className="banner-img wow zoomIn" data-wow-duration="1000ms">
                   <Image
-                    src="/webImages/newimages/banner.png"
-                    alt="Students learning at Engineers & Doctors School"
+                    src="/webImages/banner-img1.png"
+                    alt="Students learning at Engineers & Doctors Inn"
                     width={500}
                     height={375} // Aspect ratio estimation
                     style={{ width: '100%', height: 'auto' }}

@@ -541,7 +541,7 @@ export default function Admission() {
                       )}
                     </button>
                     <p className="text-center mt-3 text-muted small">
-                      By submitting, you agree to the school's terms and conditions regarding admissions.E&D's
+                      By submitting, you agree to the E&D's terms and conditions regarding admissions.
                     </p>
                   </div>
                 </div>
