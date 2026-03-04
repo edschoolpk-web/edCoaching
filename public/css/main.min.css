@@ -23188,7 +23188,7 @@ footer .bottom-footer .social-links {
     display: none;
   }
 
-  .course-section .courses-list .course-card:nth-child(2) {
+  .course-section .courses-list .course-card:nth-child(2), .course-section .courses-list .course-card:nth-child(4) {
     left: 0;
   }
 
