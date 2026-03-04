@@ -129,7 +129,7 @@ export default async function About() {
               <div className="col-lg-6 col-md-6">
                 <div className="avt-img">
                   <Image
-                    src="/webImages/newimages/STAFFGROUP.jpg"
+                    src="/webImages/newimages/group.JPG"
                     alt="About Image 1"
                     width={500}
                     height={400}
