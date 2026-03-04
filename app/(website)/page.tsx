@@ -198,7 +198,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/newimages/comprehansive.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/comprehansive1.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -295,7 +295,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/newimages/comprehansive.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/comprehansive1.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
