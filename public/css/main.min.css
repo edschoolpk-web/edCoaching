@@ -20280,6 +20280,7 @@ a.crt-btn i {
 
 .course-section .courses-list .course-card .course-meta li:last-child {
   margin-right: 0;
+  font-weight: 700;
 }
 
 .course-section .courses-list .course-card .course-meta+span {

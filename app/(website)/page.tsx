@@ -393,26 +393,26 @@ export default function Home() {
                   <div className="d-flex flex-wrap align-items-center">
                     <ul className="course-meta">
                       <li>
-                        <i className="fa-solid fa-calendar"></i> 174088
+                        <i className="fa-solid fa-calendar"></i><strong> High Achiever 2025 (Class-IX) </strong>
                       </li>
                       {/* <li>Early Years & Foundation</li> */}
                     </ul>
-                    <span>Pct 92% </span>
+                    <span>Percentage 92% </span>
                   </div>
                   <h3>
                     <Link href="/" title="Montessori & Primary Section">
                      Irfa Alam
                     </Link>
                   </h3>
-                  {/* <div className="d-flex flex-wrap">
+                  <div className="d-flex flex-wrap">
                     <div className="posted-by">
-                      <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
+                      {/* <Image src="/webImages/ico2.png" alt="" width={24} height={24} /> */}
                       <Link href="/about" title="Caring & Qualified Teachers">
-                        Caring & Qualified Teachers
+                       <i className="fa-solid fa-hashtag"></i>  174088
                       </Link>
                     </div>
 
-                  </div> */}
+                  </div>
                 </div>
                 {/* course-card end */}
 
@@ -421,26 +421,25 @@ export default function Home() {
                   <div className="d-flex flex-wrap align-items-center">
                     <ul className="course-meta">
                       <li>
-                        <i className="fa-solid fa-calendar"></i> 488700
+                        <i className="fa-solid fa-calendar"></i>High Achiever 2025 (Class-X) 
                       </li>
                       {/* <li>Secondary Section</li> */}
                     </ul>
-                    <span>Pct 92% </span>
+                    <span>Percentage 92% </span>
                   </div>
                   <h3>
                     <Link href="/" title="Secondary School Program">
-                      Shama Naseem
+                     Shamama Naseem
                     </Link>
                   </h3>
-                  {/* <div className="d-flex flex-wrap">
+                  <div className="d-flex flex-wrap">
                     <div className="posted-by">
-                      <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
                       <Link href="/location" title="STEM, Labs & Facilities">
-                        STEM, Labs & Facilities
+                            <i className="fa-solid fa-hashtag"></i>  488700
                       </Link>
                     </div>
 
-                  </div> */}
+                  </div>
                 </div>
                 {/* course-card end */}
 
@@ -449,51 +448,49 @@ export default function Home() {
                   <div className="d-flex flex-wrap align-items-center">
                     <ul className="course-meta">
                       <li>
-                        <i className="fa-solid fa-calendar"></i> 164543
+                        <i className="fa-solid fa-calendar"></i>High Achiever 2025 (Class-XI)  
                       </li>
                       {/* <li>8:00 AM – 2:00 PM</li> */}
                     </ul>
-                    <span>Pct 86% </span>
+                    <span>Percentage 86% </span>
                   </div>
                   <h3>
                     <Link href="/admission" title="Admission Process & Requirements">
                       Anoosha Alam
                     </Link>
                   </h3>
-                  {/* <div className="d-flex flex-wrap">
+                  <div className="d-flex flex-wrap">
                     <div className="posted-by">
-                      <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
                       <Link href="/faqs" title="Admission FAQs">
-                        View Admission FAQs
+                          <i className="fa-solid fa-hashtag"></i>  164543
                       </Link>
                     </div>
 
-                  </div> */}
+                  </div>
                 </div>
                    <div className="course-card wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="600ms">
                   <div className="d-flex flex-wrap align-items-center">
                     <ul className="course-meta">
                       <li>
-                        <i className="fa-solid fa-calendar"></i> 221256
+                        <i className="fa-solid fa-calendar"></i>High Achiever 2025 (Class-XII)  
                       </li>
                       {/* <li>8:00 AM – 2:00 PM</li> */}
                     </ul>
-                    <span>Pct 88% </span>
+                    <span>Percentage 88% </span>
                   </div>
                   <h3>
                     <Link href="/admission" title="Admission Process & Requirements">
                     Mehreen 
                     </Link>
                   </h3>
-                  {/* <div className="d-flex flex-wrap">
+                  <div className="d-flex flex-wrap">
                     <div className="posted-by">
-                      <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
                       <Link href="/faqs" title="Admission FAQs">
-                        View Admission FAQs
+                          <i className="fa-solid fa-hashtag"></i>  221256
                       </Link>
                     </div>
 
-                  </div> */}
+                  </div>
                 </div>
                 {/* course-card end */}
               </div>
