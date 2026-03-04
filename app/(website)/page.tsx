@@ -34,7 +34,7 @@ export default function Home() {
               <div className="col-lg-5 col-md-5">
                 <div className="banner-img wow zoomIn" data-wow-duration="1000ms">
                   <Image
-                    src="/webImages/newimages/banner1.png"
+                    src="/webImages/newimages/banner12.png"
                     alt="Students learning at Engineers & Doctors Inn"
                     width={500}
                     height={375} // Aspect ratio estimation
@@ -150,7 +150,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/Rebotics-Science.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/mcqss.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Robotics Fair & Science Projects" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -198,7 +198,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/img3.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/COMPREHENSIVE.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -222,7 +222,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/ClubsTrips.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/edaii.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Clubs, Trips & Co-Curriculars" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -247,7 +247,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/Rebotics-Science.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/mcqss.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Robotics Fair & Science Projects" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -295,7 +295,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/img3.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/COMPREHENSIVE.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Sports Day & Outdoor Games" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -319,7 +319,7 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="classes-col wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
                   <div className="class-thumb">
-                    <Image src="/webImages/ClubsTrips.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
+                    <Image src="/webImages/newimages/edaii.jpg" alt="" width={0} height={0} sizes="(max-width: 768px) 100vw, 33vw" className="w-100 h-auto" />
                     <Link href="/" title="Clubs, Trips & Co-Curriculars" className="crt-btn">
                       <i className="fa fa-arrow-right"></i>
                     </Link>
@@ -378,7 +378,7 @@ export default function Home() {
                 </div>
                 {/* sec-title end */}
                 <div className="course-img">
-                  <Image src="/webImages/course-img.png" alt="Students at Engineers & Doctors School" width={500} height={300} style={{ width: '100%' }} />
+                  <Image src="/webImages/newimages/course-img.png" alt="Students at Engineers & Doctors School" width={500} height={300} style={{ width: '100%' }} />
                 </div>
                 {/* course-img end */}
               </div>
@@ -393,19 +393,18 @@ export default function Home() {
                   <div className="d-flex flex-wrap align-items-center">
                     <ul className="course-meta">
                       <li>
-                        <i className="fa-solid fa-calendar"></i> Montessori –
-                        Primary
+                        <i className="fa-solid fa-calendar"></i> 174088
                       </li>
-                      <li>Early Years & Foundation</li>
+                      {/* <li>Early Years & Foundation</li> */}
                     </ul>
-                    <span>Age 3–10</span>
+                    <span>Pct 92% </span>
                   </div>
                   <h3>
                     <Link href="/" title="Montessori & Primary Section">
-                      Montessori & Primary Section
+                     Irfa Alam
                     </Link>
                   </h3>
-                  <div className="d-flex flex-wrap">
+                  {/* <div className="d-flex flex-wrap">
                     <div className="posted-by">
                       <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
                       <Link href="/about" title="Caring & Qualified Teachers">
@@ -413,7 +412,7 @@ export default function Home() {
                       </Link>
                     </div>
 
-                  </div>
+                  </div> */}
                 </div>
                 {/* course-card end */}
 
@@ -422,18 +421,18 @@ export default function Home() {
                   <div className="d-flex flex-wrap align-items-center">
                     <ul className="course-meta">
                       <li>
-                        <i className="fa-solid fa-calendar"></i> Grade VI – X
+                        <i className="fa-solid fa-calendar"></i> 488700
                       </li>
-                      <li>Secondary Section</li>
+                      {/* <li>Secondary Section</li> */}
                     </ul>
-                    <span>Age 11–16</span>
+                    <span>Pct 92% </span>
                   </div>
                   <h3>
                     <Link href="/" title="Secondary School Program">
-                      Secondary School Program
+                      Shama Naseem
                     </Link>
                   </h3>
-                  <div className="d-flex flex-wrap">
+                  {/* <div className="d-flex flex-wrap">
                     <div className="posted-by">
                       <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
                       <Link href="/location" title="STEM, Labs & Facilities">
@@ -441,7 +440,7 @@ export default function Home() {
                       </Link>
                     </div>
 
-                  </div>
+                  </div> */}
                 </div>
                 {/* course-card end */}
 
@@ -450,18 +449,18 @@ export default function Home() {
                   <div className="d-flex flex-wrap align-items-center">
                     <ul className="course-meta">
                       <li>
-                        <i className="fa-solid fa-calendar"></i> Mon–Fri
+                        <i className="fa-solid fa-calendar"></i> 164543
                       </li>
-                      <li>8:00 AM – 2:00 PM</li>
+                      {/* <li>8:00 AM – 2:00 PM</li> */}
                     </ul>
-                    <span>On-Campus</span>
+                    <span>Pct 86% </span>
                   </div>
                   <h3>
                     <Link href="/admission" title="Admission Process & Requirements">
-                      Admission Process & Requirements
+                      Anoosha Alam
                     </Link>
                   </h3>
-                  <div className="d-flex flex-wrap">
+                  {/* <div className="d-flex flex-wrap">
                     <div className="posted-by">
                       <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
                       <Link href="/faqs" title="Admission FAQs">
@@ -469,7 +468,32 @@ export default function Home() {
                       </Link>
                     </div>
 
+                  </div> */}
+                </div>
+                   <div className="course-card wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="600ms">
+                  <div className="d-flex flex-wrap align-items-center">
+                    <ul className="course-meta">
+                      <li>
+                        <i className="fa-solid fa-calendar"></i> 221256
+                      </li>
+                      {/* <li>8:00 AM – 2:00 PM</li> */}
+                    </ul>
+                    <span>Pct 88% </span>
                   </div>
+                  <h3>
+                    <Link href="/admission" title="Admission Process & Requirements">
+                    Mehreen 
+                    </Link>
+                  </h3>
+                  {/* <div className="d-flex flex-wrap">
+                    <div className="posted-by">
+                      <Image src="/webImages/ico2.png" alt="" width={24} height={24} />
+                      <Link href="/faqs" title="Admission FAQs">
+                        View Admission FAQs
+                      </Link>
+                    </div>
+
+                  </div> */}
                 </div>
                 {/* course-card end */}
               </div>

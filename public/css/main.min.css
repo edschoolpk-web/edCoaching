@@ -20245,8 +20245,9 @@ a.crt-btn i {
   overflow: hidden;
 }
 
-.course-section .courses-list .course-card:nth-child(2) {
-  left: -100px;
+.course-section .courses-list .course-card:nth-child(2), .course-section .courses-list .course-card:nth-child(4)
+ {
+  left: 70px;
 }
 
 .course-section .courses-list .course-card:before {

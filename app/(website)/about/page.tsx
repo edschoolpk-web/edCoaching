@@ -129,7 +129,7 @@ export default async function About() {
               <div className="col-lg-6 col-md-6">
                 <div className="avt-img">
                   <Image
-                    src="/webImages/abt1.png"
+                    src="/webImages/newimages/STAFFGROUP.jpg"
                     alt="About Image 1"
                     width={500}
                     height={400}
@@ -337,7 +337,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/Rebotics-Science.jpg"
+                      src="/webImages/newimages/mcqss.jpg"
                       alt=""
                       width={0}
                       height={0}
@@ -417,7 +417,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/img3.jpg"
+                      src="/webImages/newimages/COMPREHENSIVE.jpg"
                       alt=""
                       width={0}
                       height={0}
@@ -457,7 +457,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/ClubsTrips.jpg"
+                      src="/webImages/newimages/edaii.jpg"
                       alt=""
                       width={0}
                       height={0}
@@ -497,7 +497,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/Rebotics-Science.jpg"
+                      src="/webImages/newimages/mcqss.jpg"
                       alt=""
                       width={0}
                       height={0}
@@ -577,7 +577,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/img3.jpg"
+                      src="/webImages/newimages/COMPREHENSIVE.jpg"
                       alt=""
                       width={0}
                       height={0}
@@ -617,7 +617,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/ClubsTrips.jpg"
+                      src="/webImages/newimages/edaii.jpg"
                       alt=""
                       width={0}
                       height={0}
