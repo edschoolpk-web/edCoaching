@@ -417,7 +417,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/newimages/comprehansive1.JPG"
+                      src="/webImages/newimages/comprehansive12.JPG"
                       alt=""
                       width={0}
                       height={0}
@@ -577,7 +577,7 @@ export default async function About() {
                 >
                   <div className="class-thumb">
                     <Image
-                      src="/webImages/newimages/comprehansive1.JPG"
+                      src="/webImages/newimages/comprehansive12.JPG"
                       alt=""
                       width={0}
                       height={0}
