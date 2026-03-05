@@ -38,7 +38,7 @@ export default function Header() {
           <div className="logo">
             <Link href="/" title="Engineers & Doctors School - Home" onClick={closeMenu}>
               <Image
-                src="/webImages/logo2.png"
+                src="/webImages/logo1.png"
                 alt="Engineers & Doctors School Logo"
                 width={200} // Estimate/default
                 height={60} // Estimate/default

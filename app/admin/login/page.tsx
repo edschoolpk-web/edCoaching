@@ -55,7 +55,7 @@ export default function AdminLogin() {
         <div className="login-header">
           <div className="logo-container">
             <Image
-              src="/webImages/logo2.png"
+              src="/webImages/logo1.png"
               alt="EdSchool Logo"
               width={160}
               height={160}
