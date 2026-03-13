@@ -2,7 +2,7 @@
  * Image URL utilities for handling uploads and optimization
  */
 
-const BASE_URL = process.env.NEXT_PUBLIC_APP_URL || "https://edschool.pk";
+const BASE_URL = process.env.NEXT_PUBLIC_APP_URL || "https://edcoaching.pk";
 
 /**
  * Converts relative upload paths to absolute URLs for Next.js image optimization.

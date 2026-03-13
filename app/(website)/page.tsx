@@ -1,8 +1,12 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import DynamicHomeGallery from '@/components/DynamicHomeGallery';
+import { getHeroSlides } from '@/app/actions/hero';
+import HeroImageSlider from '@/components/HeroImageSlider';
 
-export default function Home() {
+export default async function Home() {
+  const slides = await getHeroSlides();
+
   return (
     <>
       <div className="main-section">
@@ -33,14 +37,7 @@ export default function Home() {
 
               <div className="col-lg-5 col-md-5">
                 <div className="banner-img wow zoomIn" data-wow-duration="1000ms">
-                  <Image
-                    src="/webImages/newimages/banner12.png"
-                    alt="Students learning at Engineers & Doctors Inn"
-                    width={500}
-                    height={375} // Aspect ratio estimation
-                    style={{ width: '100%', height: 'auto' }}
-                    priority
-                  />
+                  <HeroImageSlider slides={slides} />
                 </div>
                 {/* banner-img end */}
                 {/* <div className="elements-bg wow zoomIn" data-wow-duration="1000ms"></div> */}
