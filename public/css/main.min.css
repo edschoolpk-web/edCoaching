@@ -19785,8 +19785,8 @@ header .navigation-bar nav ul ul ul {
 
 .main-section .elements-bg {
   position: absolute;
-    top: -70px;
-    right: 66px;
+  top: -70px;
+  right: 66px;
   width: 536px;
   height: 596px;
   background-image: url(../webImages/newimages/elemnt.png);
@@ -20245,8 +20245,8 @@ a.crt-btn i {
   overflow: hidden;
 }
 
-.course-section .courses-list .course-card:nth-child(2), .course-section .courses-list .course-card:nth-child(4)
- {
+.course-section .courses-list .course-card:nth-child(2),
+.course-section .courses-list .course-card:nth-child(4) {
   left: 70px;
 }
 
@@ -20415,14 +20415,14 @@ a.crt-btn i {
 
 .blog-section .blog-posts .blog-post .blog-info p {
   margin-bottom: 13px;
-  
-max-height: 90px;
-    min-height: 40px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+
+  max-height: 90px;
+  min-height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .blog-section .blog-posts .blog-post .blog-info .read-more {
@@ -23188,7 +23188,8 @@ footer .bottom-footer .social-links {
     display: none;
   }
 
-  .course-section .courses-list .course-card:nth-child(2), .course-section .courses-list .course-card:nth-child(4) {
+  .course-section .courses-list .course-card:nth-child(2),
+  .course-section .courses-list .course-card:nth-child(4) {
     left: 0;
   }
 
@@ -23362,7 +23363,8 @@ footer .bottom-footer .social-links {
 
 @media only screen and (max-width: 768px) {
   .banner-img {
-    display: none;
+    /* display: none; */
+    margin-top: 15px;
   }
 
   .banner-text {
@@ -24369,11 +24371,11 @@ footer .top-footer .contact-info i {
 }
 
 .blog-section .blog-posts .blog-post .blog-thumbnail img {
-    height: 100% !important;
-    width: 100% !important;
-    object-fit: cover;
+  height: 100% !important;
+  width: 100% !important;
+  object-fit: cover;
 }
 
-.teachercontent p{
+.teachercontent p {
   max-width: 1150px;
 }
