@@ -70,7 +70,7 @@ export default function Header() {
                   <h4>Email</h4>
                   <span>
                     {" "}
-                    <a href="mailto:info@edinn.com.pk">info@edinn.com.pk</a>
+                    <a href="mailto:info@edcoaching.pk">info@edcoaching.pk</a>
                   </span>
                 </div>
               </div>

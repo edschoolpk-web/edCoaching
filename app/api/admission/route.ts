@@ -171,7 +171,7 @@ export async function POST(request: Request) {
     `;
 
     const result = await sendEmail({
-      to: process.env.SMTP_FROM_EMAIL || "info@edinn.com.pk",
+      to: process.env.SMTP_FROM_EMAIL || "info@edcoaching.pk",
       subject: `${siteName} – New Student Enrollment`,
       html,
       // No replyTo set in PHP for admission, so omitting

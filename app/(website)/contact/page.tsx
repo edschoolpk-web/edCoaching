@@ -493,7 +493,7 @@ export default function Contact() {
                         <div className="dd-cont">
                           <h4>Email</h4>
                           <span>
-                            <a href="mailto:info@edinn.com.pk">info@edinn.com.pk</a>
+                            <a href="mailto:info@edcoaching.pk">info@edcoaching.pk</a>
                           </span>
                         </div>
                       </div>
@@ -505,7 +505,7 @@ export default function Contact() {
                         </div>
                         <div className="dd-cont">
                           <h4>School Time</h4>
-                          <span>8:00am - 2:00pm Mon - Sat</span>
+                          <span>Mon – Fri · 4:00 PM – 9:00 PM</span>
                         </div>
                       </div>
                     </li>

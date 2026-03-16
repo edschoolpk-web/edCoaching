@@ -50,7 +50,7 @@ export default function Footer() {
                         <i className="fa-regular fa-envelope"></i>
                         <div className="contact-tt">
                           <h4>Email</h4>
-                          <span> <a href="mailto:info@edinn.com.pk">info@edinn.com.pk</a></span>
+                          <span> <a href="mailto:info@edcoaching.pk">info@edcoaching.pk</a></span>
                         </div>
                       </div>
                       {/* contact-info end */}
@@ -60,7 +60,7 @@ export default function Footer() {
                         <i className="fa-regular fa-clock"></i>
                         <div className="contact-tt">
                           <h4>School Timings</h4>
-                          <span>Mon – Fri · 8:00 AM – 2:00 PM</span>
+                          <span>Mon – Fri · 4:00 PM – 9:00 PM</span>
                         </div>
                       </div>
                       {/* contact-info end */}
