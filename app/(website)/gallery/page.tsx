@@ -3,8 +3,8 @@ import LightBoxGallery from "@/components/LightBoxGallery";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gallery | Engineers & Doctors School Campus & Activities",
-  description: "View the Engineers & Doctors School gallery—campus highlights, classrooms, events, student activities, and memorable moments from our Karachi school community.",
+  title: "Gallery | Engineers & Doctors Coaching Campus & Activities",
+  description: "View the Engineers & Doctors Coaching gallery—campus highlights, classrooms, events, student activities, and memorable moments from our Karachi coaching community.",
   alternates: {
     canonical: "https://edschool.pk/gallery"
   }

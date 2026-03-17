@@ -89,7 +89,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             <div className="logo-container">
               <Image
                 src="/webImages/logo1.png"
-                alt="E&D School"
+                alt="E&D Coaching"
                 width={180}
                 height={60}
                 style={{ width: 'auto', height: '40px' }}

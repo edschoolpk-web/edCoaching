@@ -3,8 +3,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Academics at Engineers & Doctors School | Curriculum & Learning",
-  description: "Explore academics at Engineers & Doctors School in Karachi, offering a well-structured curriculum, qualified faculty, and a student-focused learning approach.",
+  title: "Academics at Engineers & Doctors Coaching | Curriculum & Learning",
+  description: "Explore academics at Engineers & Doctors Coaching in Karachi, offering a well-structured curriculum, qualified faculty, and a student-focused learning approach.",
   alternates: {
     canonical: "https://edschool.pk/academics"
   }

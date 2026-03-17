@@ -49,7 +49,7 @@ export async function acceptAppointment(id: string) {
   // Send confirmation email
   await sendEmail({
     to: appointment.email,
-    subject: "Appointment Confirmed - Engineers & Doctors School",
+    subject: "Appointment Confirmed - Engineers & Doctors Coaching",
     html: generateConfirmationEmail(appointment.name, appointment.purpose, formatDate(appointment.date), appointment.timeSlot),
   });
 
@@ -66,7 +66,7 @@ export async function rejectAppointment(id: string, reason?: string) {
   // Send rejection email
   await sendEmail({
     to: appointment.email,
-    subject: "Appointment Update - Engineers & Doctors School",
+    subject: "Appointment Update - Engineers & Doctors Coaching",
     html: generateRejectionEmail(appointment.name, reason),
   });
 
@@ -88,7 +88,7 @@ export async function rescheduleAppointment(id: string, newDate: Date, newTimeSl
   // Send reschedule email
   await sendEmail({
     to: appointment.email,
-    subject: "Appointment Rescheduled - Engineers & Doctors School",
+    subject: "Appointment Rescheduled - Engineers & Doctors Coaching",
     html: generateRescheduleEmail(appointment.name, formatDate(newDate), newTimeSlot),
   });
 

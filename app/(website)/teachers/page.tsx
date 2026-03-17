@@ -3,9 +3,9 @@ import { TeacherList } from "../about/teacher-list";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Teachers | Engineers & Doctors School",
+  title: "Our Teachers | Engineers & Doctors Coaching",
   description:
-    "Meet the dedicated team of educators at Engineers & Doctors School.",
+    "Meet the dedicated team of educators at Engineers & Doctors Coaching.",
   alternates: {
     canonical: "https://edschool.pk/teachers",
   },

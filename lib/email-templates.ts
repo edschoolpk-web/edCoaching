@@ -77,7 +77,7 @@ export function generateSubmittedEmail(name: string, purpose: string, date: stri
             <!-- Footer -->
             <tr>
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
-                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
+                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors Coaching</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edcoaching.pk" style="color:#3a6ea5;text-decoration:none;">info@edcoaching.pk</a>
@@ -153,7 +153,7 @@ export function generateConfirmationEmail(name: string, purpose: string, date: s
                 <!-- Location -->
                 <div style="background:#fef9c3;border-radius:12px;padding:16px 20px;margin-bottom:25px;">
                   <p style="margin:0;color:#713f12;font-size:14px;line-height:1.5;">
-                    <strong>📍 Location:</strong> Engineers & Doctors School, KESC # 187, L Block Road, Islam Nagar, Sector 11, Orangi Town Karachi
+                    <strong>📍 Location:</strong> Engineers & Doctors Coaching, KESC # 187, L Block Road, Islam Nagar, Sector 11, Orangi Town Karachi
                   </p>
                 </div>
                 
@@ -166,7 +166,7 @@ export function generateConfirmationEmail(name: string, purpose: string, date: s
             <!-- Footer -->
             <tr>
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
-                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
+                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors Coaching</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edcoaching.pk" style="color:#3a6ea5;text-decoration:none;">info@edcoaching.pk</a>
@@ -209,7 +209,7 @@ export function generateRejectionEmail(name: string, reason?: string): string {
                   Dear <strong>${name}</strong>,
                 </p>
                 <p style="margin:0 0 25px;color:#334155;font-size:16px;line-height:1.6;">
-                  Thank you for your interest in visiting Engineers & Doctors School. Unfortunately, we are unable to accommodate your appointment request at this time.
+                  Thank you for your interest in visiting Engineers & Doctors Coaching. Unfortunately, we are unable to accommodate your appointment request at this time.
                 </p>
                 
                 ${reason ? `
@@ -229,7 +229,7 @@ export function generateRejectionEmail(name: string, reason?: string): string {
             <!-- Footer -->
             <tr>
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
-                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
+                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors Coaching</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edcoaching.pk" style="color:#3a6ea5;text-decoration:none;">info@edcoaching.pk</a>
@@ -302,7 +302,7 @@ export function generateRescheduleEmail(name: string, newDate: string, newTime: 
                 <!-- Location -->
                 <div style="background:#fef9c3;border-radius:12px;padding:16px 20px;margin-bottom:25px;">
                   <p style="margin:0;color:#713f12;font-size:14px;line-height:1.5;">
-                    <strong>📍 Location:</strong> Engineers & Doctors School, KESC # 187, L Block Road, Islam Nagar, Sector 11, Orangi Town Karachi
+                    <strong>📍 Location:</strong> Engineers & Doctors Coaching, KESC # 187, L Block Road, Islam Nagar, Sector 11, Orangi Town Karachi
                   </p>
                 </div>
                 
@@ -315,7 +315,7 @@ export function generateRescheduleEmail(name: string, newDate: string, newTime: 
             <!-- Footer -->
             <tr>
               <td style="padding:25px 40px;background:#f8fafc;border-top:1px solid #e2e8f0;text-align:center;">
-                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors School</p>
+                <p style="margin:0 0 8px;color:#1e3a5f;font-size:16px;font-weight:600;">Engineers & Doctors Coaching</p>
                 <p style="margin:0;color:#64748b;font-size:13px;">
                   <a href="tel:+923112197685" style="color:#3a6ea5;text-decoration:none;">+92 315 221 9374 </a> • 
                   <a href="mailto:info@edcoaching.pk" style="color:#3a6ea5;text-decoration:none;">info@edcoaching.pk</a>

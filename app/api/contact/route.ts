@@ -34,7 +34,7 @@ function generateAdminNotificationEmail(
   date: string,
   time: string
 ): string {
-  const siteName = "Engineers & Doctors School";
+  const siteName = "Engineers & Doctors Coaching";
   const submittedAt = new Date().toLocaleString("en-PK", {
     dateStyle: "medium",
     timeStyle: "short",
@@ -195,7 +195,7 @@ export async function POST(request: Request) {
     // Send "Request Submitted" email to user
     await sendEmail({
       to: email,
-      subject: "Appointment Request Submitted - Engineers & Doctors School",
+      subject: "Appointment Request Submitted - Engineers & Doctors Coaching",
       html: generateSubmittedEmail(Name, purposeLabel, formattedDate, timeSlot),
     });
 

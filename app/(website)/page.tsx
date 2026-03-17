@@ -375,7 +375,7 @@ export default async function Home() {
                 </div>
                 {/* sec-title end */}
                 <div className="course-img">
-                  <Image src="/webImages/newimages/course-img.png" alt="Students at Engineers & Doctors School" width={500} height={300} style={{ width: '100%' }} />
+                  <Image src="/webImages/newimages/course-img.png" alt="Students at Engineers & Doctors Coaching" width={500} height={300} style={{ width: '100%' }} />
                 </div>
                 {/* course-img end */}
               </div>

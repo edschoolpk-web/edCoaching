@@ -56,7 +56,7 @@ export default function AdminLogin() {
           <div className="logo-container">
             <Image
               src="/webImages/logo1.png"
-              alt="EdSchool Logo"
+              alt="EdCoaching Logo"
               width={160}
               height={160}
               className="login-logo"
@@ -76,7 +76,7 @@ export default function AdminLogin() {
               <input
                 name="email"
                 type="email"
-                placeholder="admin@edschool.pk"
+                placeholder="admin@edcoaching.pk"
                 required
                 className="form-input"
               />

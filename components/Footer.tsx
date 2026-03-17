@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="row">
               <div className="col-lg-4 col-md-6 col-sm-6">
                 <div className="widget widget-about">
-                  <Image src="/webImages/logo1.png" alt="Engineers & Doctors School Logo" width={200} height={60} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} />
+                  <Image src="/webImages/logo1.png" alt="Engineers & Doctors Coaching Logo" width={200} height={60} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} />
                   <p>
                     Welcome to Engineers & Doctors Inn (E&D)! Established in 2012, our institute has been dedicated to empowering students to achieve their academic and career goals.
                   </p>
@@ -86,7 +86,7 @@ export default function Footer() {
                 <div className="widget widget-links">
                   <h3 className="widget-title">Quick Links</h3>
                   <ul>
-                    <li><Link href="/about" title="About Engineers & Doctors School">About Us</Link></li>
+                    <li><Link href="/about" title="About Engineers & Doctors Coaching">About Us</Link></li>
                     <li><Link href="/teachers" title="Teachers programs">Teachers</Link></li>
                     <li><Link href="/admission" title="Facilities and student life">Admissions</Link></li>
                     <li><Link href="/gallery" title="Gallery">Gallery</Link></li>

@@ -100,7 +100,7 @@ export async function POST(request: Request) {
       }
     });
 
-    const siteName = "Engineers & Doctors School";
+    const siteName = "Engineers & Doctors Coaching";
     const date = new Date().toLocaleString("en-PK", {
       dateStyle: "medium",
       timeStyle: "short",

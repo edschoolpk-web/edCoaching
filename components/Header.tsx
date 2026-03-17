@@ -36,10 +36,10 @@ export default function Header() {
       <div className="container">
         <div className="header-content d-flex flex-wrap align-items-center">
           <div className="logo">
-            <Link href="/" title="Engineers & Doctors School - Home" onClick={closeMenu}>
+            <Link href="/" title="Engineers & Doctors Coaching - Home" onClick={closeMenu}>
               <Image
                 src="/webImages/logo1.png"
-                alt="Engineers & Doctors School Logo"
+                alt="Engineers & Doctors Coaching Logo"
                 width={200} // Estimate/default
                 height={60} // Estimate/default
                 style={{ width: 'auto', height: 'auto', maxWidth: '100%' }}
@@ -142,7 +142,7 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link className={isActive("/about")} href="/about" title="About Engineers & Doctors School" onClick={closeMenu}>
+            <Link className={isActive("/about")} href="/about" title="About Engineers & Doctors Coaching" onClick={closeMenu}>
               About Us
             </Link>
           </li>

@@ -18,7 +18,7 @@ export const sendEmail = async ({
     subject,
     html,
     replyTo,
-    fromName = "Engineers & Doctors School",
+    fromName = "Engineers & Doctors Coaching",
 }: SendEmailOptions) => {
     // ✅ Hostinger SMTP defaults (from your screenshot):
     const host = process.env.SMTP_HOST || "smtp.hostinger.com";

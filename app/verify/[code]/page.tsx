@@ -5,8 +5,8 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Certificate Verification | Engineers & Doctors School',
-    description: 'Verify the authenticity of certificates issued by Engineers & Doctors School.',
+    title: 'Certificate Verification | Engineers & Doctors Coaching',
+    description: 'Verify the authenticity of certificates issued by Engineers & Doctors Coaching.',
 };
 
 interface VerifyPageProps {
@@ -98,7 +98,7 @@ export default async function VerifyPage({ params }: VerifyPageProps) {
                     )}
 
                     <div className="mt-8 pt-8 border-t border-gray-100">
-                        <p className="text-xs text-gray-400">© {new Date().getFullYear()} Engineers & Doctors School</p>
+                        <p className="text-xs text-gray-400">© {new Date().getFullYear()} Engineers & Doctors Coaching</p>
                     </div>
                 </div>
             </div>

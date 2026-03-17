@@ -6,9 +6,9 @@ import TeachersSlider from "@/components/TeachersSlider";
 import { getTeachers } from "@/app/actions/teacher";
 
 export const metadata: Metadata = {
-  title: "About Engineers & Doctors School | Vision, Mission & Values",
+  title: "About Engineers & Doctors Coaching | Vision, Mission & Values",
   description:
-    "Discover Engineers & Doctors School in Karachi—our vision, mission, teaching approach, and commitment to academic excellence and student development.",
+    "Discover Engineers & Doctors Coaching in Karachi—our vision, mission, teaching approach, and commitment to academic excellence and student development.",
   alternates: {
     canonical: "https://edschool.pk/about",
   },
@@ -206,7 +206,7 @@ export default async function About() {
                 </p>
                 <Link
                   href="/contact"
-                  title="Contact Engineers & Doctors School"
+                  title="Contact Engineers & Doctors Coaching"
                   className="btn-default"
                 >
                   Contact Us <i className="fa fa-long-arrow-alt-right"></i>

@@ -4,9 +4,9 @@ import './globals.css';
 import { Providers } from '@/components/Providers';
 
 export const metadata: Metadata = {
-  title: 'Engineers & Doctors School | Karachi',
-  description: 'Engineers & Doctors School in Karachi offers quality education with strong academics, admissions guidance, and a supportive learning environment.',
-  keywords: 'Engineers & Doctors School, ED School Karachi, school in Karachi, admissions, academics, education',
+  title: 'Engineers & Doctors Coaching | Karachi',
+  description: 'Engineers & Doctors Coaching in Karachi offers quality education with strong academics, admissions guidance, and a supportive learning environment.',
+  keywords: 'Engineers & Doctors Coaching, ED Coaching Karachi, coaching in Karachi, admissions, academics, education',
   icons: {
     icon: '/favicon12.png',
     shortcut: '/favicon12.png',
