@@ -504,8 +504,8 @@ export default function Contact() {
                           <i className="fa-regular fa-clock"></i>
                         </div>
                         <div className="dd-cont">
-                          <h4>School Time</h4>
-                          <span>Mon – Fri · 4:00 PM – 9:00 PM</span>
+                          <h4>Working Days & Hours</h4>
+                          <span>Mon – Sat · 4:00 PM – 9:00 PM</span>
                         </div>
                       </div>
                     </li>

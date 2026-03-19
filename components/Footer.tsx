@@ -59,8 +59,8 @@ export default function Footer() {
                       <div className="contact-info">
                         <i className="fa-regular fa-clock"></i>
                         <div className="contact-tt">
-                          <h4>School Timings</h4>
-                          <span>Mon – Fri · 4:00 PM – 9:00 PM</span>
+                          <h4>Working Days & Hours</h4>
+                          <span>Mon – Sat · 4:00 PM – 9:00 PM</span>
                         </div>
                       </div>
                       {/* contact-info end */}
