@@ -11,8 +11,8 @@ interface CertificatePreviewProps {
 
 const CERTIFICATE_TEMPLATES: Record<string, string> = {
     'CHARACTER': 'character-certificate.jpg',
-    'PROVISIONAL': 'provisional-certificate.jpg',
-    'LEAVING': 'leaving-certificate.jpg',
+    'ACHIEVEMENT': 'achievement-certificate.jpg',
+    'ACADEMY_LEAVING': 'leaving-certificate.jpg',
     'APPRECIATION': 'appreciation-certificate.jpg',
     'EXPERIENCE': 'teacher-experience-certificate.jpg'
 };

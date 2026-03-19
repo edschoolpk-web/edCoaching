@@ -54,8 +54,8 @@ export default function CertificateGenerator() {
 
     const certificateTypes = [
         { value: 'CHARACTER', label: 'Character Certificate' },
-        { value: 'PROVISIONAL', label: 'Provisional Certificate' },
-        { value: 'LEAVING', label: 'School Leaving Certificate' },
+        { value: 'ACHIEVEMENT', label: 'Certificate of Achievement' },
+        { value: 'ACADEMY_LEAVING', label: 'Academy Leaving Certificate' },
         { value: 'APPRECIATION', label: 'Certificate of Appreciation' },
         { value: 'EXPERIENCE', label: 'Teachers Experience Certificate' },
     ];

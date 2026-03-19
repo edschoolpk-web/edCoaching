@@ -62,8 +62,8 @@ export default function CertificateList({ initialCertificates }: CertificateList
     const tabs = [
         { id: 'ALL', label: 'All' },
         { id: 'CHARACTER', label: 'Character' },
-        { id: 'PROVISIONAL', label: 'Provisional' },
-        { id: 'LEAVING', label: 'Leaving' },
+        { id: 'ACHIEVEMENT', label: 'Achievement' },
+        { id: 'ACADEMY_LEAVING', label: 'Academy Leaving' },
         { id: 'APPRECIATION', label: 'Appreciation' },
         { id: 'EXPERIENCE', label: 'Experience' },
     ];
