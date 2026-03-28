@@ -297,13 +297,13 @@ export default function Career() {
                       <label htmlFor="post">Post Applying For <span className="text-danger">*</span></label>
                       <select name="post" id="post" className="modern-select" required value={formData.post} onChange={handleChange}>
                         <option value="" disabled>Select the position you are interested in</option>
-                        <option>Montessori / ECE Teacher</option>
-                        <option>Primary Teacher</option>
-                        <option>Secondary Teacher</option>
-                        <option>Subject Specialist</option>
-                        <option>Coordinator</option>
+                        <option>Secondary Lecturer</option>
+                        <option>Higher Secondary Lecturer</option>
+                        <option>Admission Test Expert</option>
+                        <option>English Language Expert</option>
+                        <option>Computer Course Expert</option>
                         <option>Admin Staff</option>
-                        <option>Other</option>
+                        
                       </select>
                     </div>
                   </div>
